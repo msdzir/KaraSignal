@@ -1,0 +1,21 @@
+
+.add-new-asset-form{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 30px;
+}
+
+.add-new-asset-form > div{
+    box-sizing: border-box;
+    display:flex;
+    justify-content: flex-end;
+    gap: 7px;
+    align-items: center;
+}
+
+.add-new-asset-form > div > span > div{
+    min-width: 200px;
+}

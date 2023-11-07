@@ -1,0 +1,31 @@
+:root{
+
+}
+
+#root {
+  box-sizing: border-box;
+  width: 100%;
+
+  display: grid;
+  justify-items:top;
+  align-items: top;
+}
+
+.grid-item{
+  padding : 10px;
+}
+
+.main-holder{
+
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+
+}
+
+input{
+  min-height: 30px;
+  border: solid rgb(46, 87, 208) 1px;
+  border-radius: 10px;
+  padding: 7px;
+}

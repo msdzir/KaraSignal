@@ -1,0 +1,52 @@
+{
+    "root": [
+        {
+            "assetID": "1",
+            "userID": "234",
+            "assetName": "BTCUSDT",
+            "price": 10,
+            "market": "Binance",
+            "userSavedName": "somename",
+            "targetPrice": 2000
+        },
+        {
+            "assetID": "1",
+            "userID": "234",
+            "assetName": "BTCUSDT",
+            "price": 10,
+            "market": "Binance",
+            "userSavedName": "somename",
+            "targetPrice": 2000
+        },
+        {
+            "assetID": "1",
+            "userID": "234",
+            "assetName": "BTCUSDT",
+            "price": 10,
+            "market": "Binance",
+            "userSavedName": "somename",
+            "targetPrice": 2000
+        },
+        {
+            "assetID": "1",
+            "userID": "234",
+            "assetName": "BTCUSDT",
+            "price": 10,
+            "market": "Binance",
+            "userSavedName": "somename",
+            "targetPrice": 2000
+        },
+        {
+            "id": "1000",
+            "code": "'f230fh0g3'",
+            "name": "'Bamboo Watch'",
+            "description": "'Product Description'",
+            "image": "'bamboo-watch.jpg'",
+            "price": 65,
+            "category": "'Accessories'",
+            "quantity": 24,
+            "inventoryStatus": "'INSTOCK'",
+            "rating": 5
+        }
+    ]
+}

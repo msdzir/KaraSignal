@@ -1,0 +1,93 @@
+
+.dashboard-panel{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dashboard-panel > div{
+    box-sizing: border-box;
+    padding:6px;
+
+    border-bottom: solid lightgray 2px;
+}
+
+.header-btn-holder{
+    display: flex;
+    gap: 7px;
+}
+
+.edit-tab-panel{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.subscription-btn-hodler{
+    box-sizing: border-box;
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+
+    gap: 7px;
+
+    padding: 7px 0px;
+}
+
+.inner-list-btn-holder{
+    display: flex;
+    gap: 7px;
+}
+
+.add-new-asset-form-holder{
+    box-sizing: border-box;
+    min-width: 800px;
+    min-height: 270px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    border : solid 2px rgb(200, 200, 200);
+    border-radius: 10px;
+
+    padding: 10px;
+}
+
+.bombo-box-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px 0px;
+
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    border-width: 0px 0px 2px 0px;
+}
+
+
+.label-input-holder{
+    display: flex;
+    flex-direction: column;
+}
+
+.target-price-input-holder{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs-holder{
+    display: flex;
+    align-items: center;
+
+    gap: 20%;
+
+    padding: 20px 7px;
+
+}
+
+.inputs-holder input{
+    width: 220px;
+}
