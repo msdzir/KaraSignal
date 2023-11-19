@@ -1,24 +1,65 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This repository contains all of the UI/UX of the project from login to dashboard, etc.
+Front_end has been deployed with React and Typescript.
+This service just uses DashboardAPI service.
+
+> Node Version : v17.9.0\
+> npm  Version : 8.12.1\
+> Vit -> No config needed\
+> TS  -> No config needed
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+For starting this procjes first you should to install all of the installation packages the run the project with following command in terminal:
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+> npm starting
+The project will be launched on 3000 port number. 
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+Run following command to publish the project:
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+>npm run build
+After running the command a 'build' named folder would be made.
 
-# Installtions : 
-- npm install
-- npm install primereact
+#Routing
+ - /                   Directed to LoginPage.
+ - /login              Directed to LoginPage.
+ - /signup             Directed to SignupPage.
+ - /confirmation       Directed to VerificationPage.
+ - /forgot-password    Directed to ForgotPasswordPage.
+ - /reset-password     Directed to ResetPasswordPage
+ - /dashboard/*        Directed to DashboardPage.
+
+# Installtions and Libraries : 
+- npm install \
+├── @stomp/stompjs@7.0.0 \
+├── @testing-library/jest-dom@5.17.0 \
+├── @testing-library/react@13.4.0 \
+├── @testing-library/user-event@13.5.0 \
+├── @types/jest@27.5.2 \
+├── @types/js-cookie@3.0.5 \
+├── @types/node@16.18.60 \
+├── @types/react-dom@18.2.14 \
+├── @types/react-router-dom@5.3.3 \
+├── @types/react@18.2.34 \
+├── @types/socket.io@3.0.2 \
+├── @types/sockjs-client@1.5.3 \
+├── axios@1.6.0 \
+├── bootstrap@5.3.2 \
+├── classnames@2.3.2 \
+├── js-cookie@3.0.5 \
+├── primeflex@3.3.1 \
+├── primeicons@6.0.1 \
+├── primereact@10.0.9 \
+├── react-dom@18.2.0 \
+├── react-hook-form@7.48.0 \
+├── react-router-dom@6.18.0 \
+├── react-scripts@5.0.1 \
+├── react-stomp@5.1.0 \
+├── react-toastify@9.1.3 \
+├── react-transition-group@4.4.5 \
+├── react@18.2.0 \
+├── socket.io-client@4.7.2 \
+├── sockjs-client@1.6.1 \
+├── sockjs@0.3.24 \
+├── typescript@4.9.5 \
+├── web-vitals@2.1.4 \
+└── websocket-ts@2.1.5 \
