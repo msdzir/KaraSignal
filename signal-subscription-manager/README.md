@@ -1,20 +1,26 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+The Signal Subscription Management service is a service for managing the user subscriptions’ info. It stores the users’ subscription information in the database tables and provides some APIs to other services to access this database info.
+All of the markets and available assets are stored in this database and other services use this service to get global information about assets and markets.
+
+> Java version 17
+> Postgresql 8 and above 
+
+> Dashboard API uses this service 
+> Assets_Live_Price service use this service
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+1. Before starting this service, you should run the PostgreSQL and restore the UserSubscriptionDB.sql file.
+   This service connects to PostgreSQL with the 'Developer' user name and following configuration:
+    - URL : "jdbc:postgresql://localhost:5432/FinitXListOfSignalSubscription"
+    - UserName : "Developer"
+    - PassWord : "123456789"
+2. Then you can run the service. It would be launched on 8091 port number.
+
+# Properties:
+    server.port = 8091
+
+# Configs:
+    DB configuration path: com.finitX.karasignal.constant.DBConfig
 
 # Build and Test
 TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
